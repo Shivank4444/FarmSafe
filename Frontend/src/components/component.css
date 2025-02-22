@@ -1,0 +1,11 @@
+.app-component-container {
+  display: flex;
+  position: relative;
+}
+.app-component-container1 {
+  width: 1526px;
+  height: 993px;
+}
+.app-component-container2 {
+  display: contents;
+}

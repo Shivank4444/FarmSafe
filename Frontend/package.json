@@ -1,0 +1,43 @@
+{
+  "name": "character-nft-template",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "dangerous-html": "0.1.13",
+    "ethers": "^5.0.0",
+    "flatpickr": "^4.6.13",
+    "gsap": "^3.12.5",
+    "prop-types": "15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-flatpickr": "^3.10.13",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.26.2",
+    "web3": "^4.7.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test --env=jsdom",
+    "eject": "craco eject"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

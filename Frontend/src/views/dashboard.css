@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,50,1) 0%, rgba(0,30,60,1) 50%, rgba(0,0,100,1) 100%);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* For a subtle overlay effect */
+  backdrop-filter: blur(10px); /* Apply background blur effect */
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Apply glass effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for 3D effect */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff; /* Change to white for better visibility */
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Spacing between form elements */
+}
+
+label {
+  font-weight: bold;
+  color: #ffffff; /* Make label text white for better visibility */
+  font-size: 16px;
+  margin-bottom: 8px; /* Space between label and input field */
+}
+
+select,
+input[type="datetime-local"],
+textarea,
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent for inputs */
+  color: #ffffff; /* Input text color for better visibility */
+  font-size: 16px;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2); /* Slight shadow inside inputs */
+  margin-bottom: 16px; /* Space between input fields */
+}
+
+button[type="submit"] {
+  background-color: rgba(76, 175, 80, 0.7);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: rgba(69, 160, 73, 0.8);
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+.dashboard-form-container {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 16px;
+  backdrop-filter: blur(10px); /* Apply glass effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for 3D effect */
+  padding: 40px; /* Add padding to the container */
+  max-width: 600px; /* Limit the width */
+  width: 100%; /* Responsive width */
+  margin: 20px auto; /* Center the container */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Spacing between form elements */
+}
+
+select,
+input[type="datetime-local"],
+textarea,
+input[type="text"],
+input[type="number"] {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent for inputs */
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  color: #ffffff; /* White text for better visibility */
+  font-size: 16px;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2); /* Slight shadow inside inputs */
+}
+
+/* Optional: Modify input styles for consistency */
+select,
+input[type="datetime-local"],
+textarea,
+input[type="text"],
+input[type="number"] {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent for inputs */
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  color: #ffffff; /* Input text color for better visibility */
+  font-size: 16px;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2); /* Slight shadow inside inputs */
+}
